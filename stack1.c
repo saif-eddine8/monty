@@ -25,9 +25,9 @@ void add_to_stack(stack_t **new_node, __attribute__((unused))unsigned int ln)
 
 
 /**
- * print_stack - Adds a node to the stack.
- * @stack: Pointer to a pointer pointing to top node of the stack.
- * @line_number: line number of  the opcode.
+ * print_stack - function Adds a node to the stack.
+ * @stack: new Pointer to a pointer pointing to top node of the stack.
+ * @line_number: the line number of  the opcode.
  */
 void print_stack(stack_t **stack, unsigned int line_number)
 {
@@ -45,9 +45,9 @@ void print_stack(stack_t **stack, unsigned int line_number)
 }
 
 /**
- * pop_top - Adds a node to the stack.
+ * pop_top - function Adds a node to the stack.
  * @stack: Pointer to a pointer pointing to top node of the stack.
- * @line_number: Interger representing the line number of of the opcode.
+ * @line_number: is the Interger representing the line number of of the opcode.
  */
 void pop_top(stack_t **stack, unsigned int line_number)
 {
@@ -64,7 +64,7 @@ void pop_top(stack_t **stack, unsigned int line_number)
 }
 
 /**
- * print_top - Prints the top node of the stack.
+ * print_top - s the Prints the top node of the stack.
  * @stack: Pointer to a pointer pointing to top node of the stack.
  * @line_number: Interger representing the line number of of the opcode.
  */
